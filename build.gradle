@@ -1,0 +1,15 @@
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.uber:okbuck:0.52.4'
+    }
+}
+
+repositories {
+    jcenter()
+}
+
+apply plugin: 'com.uber.okbuck'
